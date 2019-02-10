@@ -1,0 +1,6 @@
+.Keyboard--white {
+	display: grid;
+	grid-template-columns: repeat(14, 1fr);
+	grid-template-rows: 300px;
+}
+

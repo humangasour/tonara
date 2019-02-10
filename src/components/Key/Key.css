@@ -1,0 +1,48 @@
+.Key {
+	border: 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 20px;
+	background: white;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+	transition: transform .2s ease;
+}
+
+.Key:not(:last-child) {
+  border-right: none;	
+}
+
+.Key:active {
+	transform: translateY(2px);
+}
+
+.Key--black {
+	background: black;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	cursor: pointer;
+	transition: transform .2s ease;
+}
+
+.Key--black:active {
+	transform: translateY(2px);
+}
+
+.Keyset1, .Keyset2 {
+	display: grid;	
+	grid-template-rows: 220px;
+	grid-gap: 20px;
+}
+
+.Keyset1 {
+	grid-template-columns: repeat(2, 60px);
+	justify-content: center;
+}
+
+.Keyset2 {
+	grid-template-columns: repeat(3, 60px);
+	justify-content: center;
+}

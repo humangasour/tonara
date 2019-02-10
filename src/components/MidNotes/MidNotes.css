@@ -1,0 +1,39 @@
+.Keyboard--black {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1.5fr 1fr 1.5fr;
+	grid-template-rows: 220px;
+	padding-left: 12px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.Key--black {
+	background: black;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	cursor: pointer;
+	transition: transform .2s ease;
+}
+
+.Key--black:active {
+	transform: translateY(2px);
+}
+
+.Keyset1, .Keyset2 {
+	display: grid;	
+	grid-template-rows: 220px;
+	grid-gap: 20px;
+}
+
+.Keyset1 {
+	grid-template-columns: repeat(2, 60px);
+	justify-content: center;
+}
+
+.Keyset2 {
+	grid-template-columns: repeat(3, 60px);
+	justify-content: center;
+}
