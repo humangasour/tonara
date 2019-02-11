@@ -9,8 +9,6 @@ import { highNotes, midNotes } from '../../assets/exports/notes';
 
 class Piano extends Component {
 	render() {
-
-		console.log('high', highNotes);
 		return (
 			<div className="Piano">
 				<HighNotes notes={highNotes} />
