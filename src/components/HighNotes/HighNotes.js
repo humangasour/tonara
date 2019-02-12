@@ -13,7 +13,7 @@ const HighNotes = (props) =>  {
 	});
 
 	const style = {
-		"grid-template-columns": `repeat(${notes.length}, 85px)`,
+		"gridTemplateColumns": `repeat(${notes.length}, 85px)`,
 	}
 
 	return ( 
