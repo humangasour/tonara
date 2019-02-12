@@ -25,6 +25,7 @@
 	border-bottom-left-radius: 5px;	
 	cursor: pointer;
 	transition: transform .2s ease;
+	pointer-events: all;
 }
 
 .Key--black:active {
